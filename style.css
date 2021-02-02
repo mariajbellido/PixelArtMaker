@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+
+
+
+body {
+
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+
+ 
+  text-transform: uppercase;
+  font-weight: 800;
+  color: palevioletred;
+  
+}
+
+h2 {
+
+  
+  font-weight: bolder;
+  
+}
+
+#inputWidth,
+#inputHeight {
+  font-family: inherit;
+  font-weight: bold;
+  color: palevioletred;
+}
+
+.submit {
+  font-family: inherit;
+  text-transform: uppercase;
+  background: palevioletred;
+  color: white;
+  font-weight: bolder;
+  border: none;
+}
+
+.submit:hover {
+  background: whitesmoke;
+  color: black;
+  border: 1px solid palevioletred;
+}
+
+table {
+
+  border-collapse: collapse;
+  margin: 0 auto;
+
+}
+
+tr {
+  height: 20px;
+
+}
+
+td {
+  width: 20px;
+}
+
+table,
+tr,
+td {
+  border: 1px solid black;
+}
+
+input[type="number"] {
+  width: 6em;
+}
